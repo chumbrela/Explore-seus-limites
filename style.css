@@ -120,7 +120,18 @@ section {
   background-color: #343193;
 }
 .form{
-  padding: 7rem;
+  display: flex;
+  
+  form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+  }
+  .stars{
+    display: none;
+  }
 }
 .form h1{
   font-size: 3.2rem;
@@ -163,10 +174,38 @@ footer{
   padding: 3.2rem;
   text-align: center;
 }
+
 @media (min-width: 768px) {
- 
-
-
+  .astronauta{
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    
+    .imageOne{
+      height: 70vh;
+    }
+  }
+  .cont{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: start;
+    justify-content: center;
+    h1{
+      font-size: 58px;
+    }
+    p{
+      font-size: 32px;
+    }
+    button img{
+      width: 59px;
+      height: 105px;
+      margin-top: 179px;
+      
+    }
+  }
+  
+  
 
   .moons {
     flex-direction: row;
@@ -179,8 +218,17 @@ footer{
   }
 
   .form {
-    width: 595px;
-    padding: 7rem;
+    display: flex;
+    
+    justify-content: space-between;
+    form{
+      width: auto;
+      padding: 95px 0 92px 105px;
+      
+    }
+    .stars{
+      display: flex;
+    }
   }
 
   .form h1 {
