@@ -1,0 +1,198 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Mulish', sans-serif;
+  font-size: 62.5%;
+  
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+header h1{
+  font-size: 3.2rem;
+  font-weight:900;
+  color:#b52184 ;
+  line-height: auto;
+}
+header p {
+  font-size: 2rem;
+  font-weight:600;
+  color:#312d64;
+  margin-top: .5rem;
+}
+header button {
+  border: none;
+  background: none;
+  margin-top: 3.5rem;
+}
+
+section {
+  background-color: #312d64;
+  padding-bottom: 5rem;
+}
+
+.moons{
+  
+  margin-top:9.3rem ;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5.2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+
+  gap: 5rem;
+  
+}
+.moon{
+  background-color: white;
+  align-items: start;
+  padding: 2.5rem;
+  border-radius: 2rem;
+
+ 
+}
+.moon img {
+  width: 8rem;
+  height: auto;
+}
+.moon h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #b52184;
+
+  margin-top: 3.3rem;
+}
+.moon p {
+  font-size: 1.2rem;
+  line-height: auto;
+  font-weight: 600;
+  color: #312d64;
+
+  margin-top: 2rem     ;
+}
+
+
+.input-with-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-with-icon input {
+  padding-left: 3rem; 
+}
+
+.input-with-icon img {
+  position: absolute;
+  left: 1rem;
+  width: 2rem;
+  height: auto;
+}
+
+.input-container {
+  margin-bottom: 1.5rem;
+}
+
+
+
+.submit-button {
+  height: 4.5rem;
+  padding: 1rem 2rem;
+  background-color: #2E1A60;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  margin-top: 2.4rem;
+}
+
+.submit-button:hover {
+  background-color: #343193;
+}
+.form{
+  padding: 7rem;
+}
+.form h1{
+  font-size: 3.2rem;
+  font-weight: 900;
+  line-height: auto;
+
+  color: #b52184;
+
+  margin-bottom: 4.3rem;
+
+}
+#name, #email{
+  width:34.8rem;
+  height: 4.8rem;
+  padding-left: 4rem;
+  border-radius: 1.6rem;
+
+  color: #302c63;
+}
+
+#message{
+  width:34.8rem;
+  height: 12.6rem;
+  padding: 1rem;
+  border-radius: 1.6rem;
+
+  font-family: 'Mulish',sans-serif;
+  color: #302c63;
+}
+
+footer{
+  height:7.8rem;
+  background:#302c63;
+  color: white;
+
+  font-size:2rem;
+  font-weight: 600;
+  line-height: auto;
+
+  padding: 3.2rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+ 
+
+
+
+  .moons {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .moon {
+    width: 30%;
+  }
+
+  .form {
+    width: 595px;
+    padding: 7rem;
+  }
+
+  .form h1 {
+    font-size: 3.2rem;
+    margin-bottom: 4.3rem;
+  }
+
+  #name, #email {
+    width: 34.8rem;
+  }
+
+  #message {
+    width: 34.8rem;
+  }
+}

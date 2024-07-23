@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <title>Explore sem limites</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="astronauta">
+      <img class="imageOne" src="images/astronauta.png" alt="astronauta">
+      <div class="cont">
+        <h1>Explore sem limites</h1>
+        <p>Porque o aprendizado e continuo</p>
+        <button onclick="scrollToSection('sectionOne')"><img  src="images/botao.png" alt="botao"></button>
+      </div>
+    </div>
+  </header>
+
+  <section id="sectionOne">
+    <div class="moons">
+    <div class="moon">
+    <img src="images/luaamarela.png" alt="lua amarela">
+    <div class="text">
+      <h2>Não pare nunca</h2>
+      <p>Se você deseja ter sucesso nos estudos, é fundamental que você adote uma mentalidade de "não pare nunca". Estudar de forma consistente e contínua é a chave para o progresso e a conquista de seus objetivos.</p>
+    </div>
+    </div>
+
+    <div class="moon">
+      <img src="images/luaazul.png" alt="lua azul">
+      <h2>Só volta</h2>
+      <p>Se você parou ou perdeu o ritmo em alguma atividade ou projeto, saiba que nunca é tarde para recomeçar. Às vezes, as circunstâncias podem mudar, ou podemos nos sentir desmotivados ou sobrecarregados.</p>
+      </div>
+
+    <div class="moon">
+      <img src="images/luarosa.png" alt="lua rosa">
+      <h2>Siga seu ritmo</h2>
+      <p>Avançar pouco a pouco mantém progresso constante em objetivos, evitando parar ou desistir. Mesmo pequenos passos nos aproximam do destino e motivam a continuidade. Não subestime o poder de cada ação rumo ao objetivo final.</p>
+    </div>
+
+  </div>
+  </section>
+  
+  <div class="form">
+  <form>
+      <div class="content">
+        <h1>Entre em contato</h1>
+        <div class="input-container">
+          
+          <div class="input-with-icon">
+            <img src="images/person.png" alt="User Icon">
+            <input type="text" id="name" name="name" placeholder="Seu nome">
+          </div>
+        </div>
+    
+        <div class="input-container">
+          
+          <div class="input-with-icon">
+            <img src="images/at.png" alt="Email Icon">
+            <input type="email" id="email" name="email" placeholder="Email">
+          </div>
+        </div>
+    
+        <div class="input-container">
+          
+          <textarea id="message" name="message" placeholder="Digite sua mensagem aqui..."></textarea>
+        </div>
+    
+        <button type="submit" class="submit-button">Enviar Mensagem</button>
+
+      </div>
+
+    </form>
+    <img class="stars" src="images/stars.png" alt="estrelas">
+  </div>
+  <footer>© 2023 - Rocketseat Explorer</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
